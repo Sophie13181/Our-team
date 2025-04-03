@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Team Section */
+.team-container {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Team Photo */
+.team-photo img {
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+/* Individual Team Members */
+.team-member {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.bio {
+    text-align: left;
+    overflow: hidden;
+}
+
+.bio h2 {
+    margin: 0;
+    color: #333;
+}
+
+.bio p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .team-member {
+        text-align: center;
+    }
+
+    .team-member img {
+        float: none;
+        margin: 0 auto 10px;
+        display: block;
+    }
+
+    .bio {
+        text-align: center;
+    }
+}
